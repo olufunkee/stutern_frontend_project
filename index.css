@@ -1,0 +1,22 @@
+details summary::-webkit-details-marker {
+    display:none;
+}
+details svg {
+    transition: 150ms ease-in-out;
+}
+
+details[open] svg {
+    transform: rotateZ(180deg);
+}
+.horizontalbox::-webkit-scrollbar {
+    height: 0px
+}
+
+.horizontalbox::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.horizontalbox::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
